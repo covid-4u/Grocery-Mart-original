@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("./fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+
+
+.category-header{
+    color: black;
+    /* background-color: black; */
+    .header-text{
+        font-size: 400%;
+        font-family: 'OpenSans-Light';
+        
+       
+    }
+}
+
+@media screen and (max-width:480px) {
+    .category-header .header-text{
+        font-size: 300%;
+    }
+}
+
+/* .container-body{
+    box-shadow: 0px 4px 10px grey;
+} */
+
+.hover-container {
+    filter: brightness(200%);
+    transition: filter 0.2s ease-in-out, background-color 0.5s ease-in-out;
+    
+}
+
+
+.hover-container:hover {
+    filter: brightness(75%);
+    
+}
+
+.text-content {
+    position: absolute;
+    bottom: -20px;
+    /* Initial position of text (just below the visible area) */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 200%;
+   
+    z-index: 2;
+   
+    transition: bottom 0.15s ease-in-out, opacity 0.15s ease-in-out;
+    opacity: 0;
+}
+
+.hover-container:hover .text-content {
+    bottom: 40%;
+    /* Move the text up into view */
+    opacity: 1;
+    
+    z-index: 1000;
+}
+
+.hover-container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    z-index: 1;
+    transition: background-color 0.2s ease-in-out;
+}
+
+

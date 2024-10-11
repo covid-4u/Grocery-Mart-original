@@ -1,0 +1,11 @@
+.product-card {
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.card-body {
+  padding: 10px; /* Reduced padding */
+}

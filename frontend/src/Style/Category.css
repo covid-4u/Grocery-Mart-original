@@ -1,0 +1,44 @@
+/* category-products.css */
+.container-body {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.container-body:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.category-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #007bff;
+  padding: 10px;
+}
+
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.hover-container:hover .text-content {
+  font-size: 1.5rem;
+  color: #ff9900;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.text-content {
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.card-footer {
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-footer strong {
+  color: #007bff;
+}

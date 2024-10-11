@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #343a40; /* Dark background */
+}
+
+.nav-link {
+  color: #ffffff !important; /* White text */
+}
+
+.nav-link:hover {
+  color: #ffd700 !important; /* Gold on hover */
+}
+
+.btn {
+  border-radius: 20px; /* Rounded buttons */
+}
+
+/* Search */
+@media (min-width: 768px) {
+  .search-bar {
+    &:focus {
+      width: 500px;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+.search-button {
+  background-color: none; /* Vibrant Cyan */
+  border: none;
+}
+
+/* Login button */
+#button-login {
+  color: black;
+  background-color: #17a2b8; /* Amber */
+  border: none;
+  font-size: 20px;
+  &:hover {
+    font-size: 20px;
+    color: black;
+    transition: 0.2s;
+    transform: scale(1.05);
+  }
+}

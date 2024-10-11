@@ -1,0 +1,55 @@
+/* profile.css */
+
+.profile-container {
+  padding-top: 50px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.btn-outline-danger {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}

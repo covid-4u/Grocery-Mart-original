@@ -1,0 +1,20 @@
+
+@media screen and (max-width:820px)  {
+    .login-image{
+        height: 100%;
+        display:none;
+        img{
+            overflow:hidden;
+        }
+    }
+}
+
+@media (min-width:820px) and (max-width:1440px) {
+    .login-image{
+        height: 100%;
+        display:none;
+        img{
+            overflow:hidden;
+        }
+    }
+}
