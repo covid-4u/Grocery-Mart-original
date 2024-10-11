@@ -1,4 +1,4 @@
-GROCERY MART 
+# GROCERY MART 
 Technologies:Django, React, REST APIs, JavaScript, CSS, MySQL
 
 Project Overview:
