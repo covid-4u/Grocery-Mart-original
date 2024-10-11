@@ -1,5 +1,5 @@
 # GROCERY MART 
-Technologies:Django, React, REST APIs, JavaScript, CSS, MySQL
+Technologies: Django, React, REST APIs, JavaScript, CSS, MySQL
 
 Project Overview:
 Grocery Mart is a full-featured e-commerce web application designed to emulate the functionality of popular grocery retail platforms like DMart. Built with Node.js and Express.js for the backend and React for the frontend, it allows users to browse, purchase, and manage grocery items effortlessly. The application integrates a robust inventory management system, secure checkout, and user-friendly shopping experience.
